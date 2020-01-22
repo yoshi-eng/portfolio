@@ -1,8 +1,8 @@
-/* Copyright 2020 m.yoshi engineer office
+/* Copyright 2020 m.yoshi engineering
  * CSS for m.yoshi's portfolio.
  */
 
-/* 全体共通のスタイル */
+/* 共通のデフォルトスタイル */
  body{
    padding: 0;
    margin: 0;
@@ -62,7 +62,7 @@ header nav li{
   padding-top: 70px;
 }
 
-/* アンカージャンプ時にヘッダに隠れないためのpadding-margin */
+/* アンカージャンプ時、ヘッダに隠れないための調整 */
 .anchor{
   padding-top: 90px;
   padding-bottom: 90px;
@@ -74,14 +74,14 @@ header nav li{
 }
 
 .contents .anchor#skill{
-background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .contents .anchor#contact{
   background-color: #dddddd;
 }
 
-/* コンテンツ内の各種スタイル */
+/* コンテンツ内タグのスタイル */
 .contents h1{
   font-size: 28px;
   font-style: bold;
@@ -111,14 +111,14 @@ background-color: #eeeeee;
   padding-left: 8em;
 }
 
-/* 真ん中に強調表示する場合のスタイル */
+/* センターに強調表示する場合のスタイル */
 .contents .strong-center{
   text-align: center;
   font-size: 20px;
   padding: 1em 0em;
 }
 
-/* 星を用いた５段階評価を表示する場合のスタイル */
+/* 星を用いた5段階評価を表示する場合のスタイル */
 .contents .star-rating{
   position: relative;
   width: 5em;
