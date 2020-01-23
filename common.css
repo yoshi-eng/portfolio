@@ -119,16 +119,25 @@ header nav li{
 
 /* 星を用いた5段階評価を表示する場合のスタイル */
 .contents .star-rating{
+  display: flex;
+  flex-direction: row;
   position: relative;
-  width: 90px;
   height: 18px;
+  width: 90px;
   font-size: 18px;
+}
+
+.contents .star-rating span{
+  display: inline-block;
+  height: 18px;
+  width: 18px;
 }
 
 .contents .star-rating .front{
   position: absolute;
   top: 0;
   left: 0;
+  white-space: nowrap;
   overflow: hidden;
   color: orange;
 }
