@@ -3,10 +3,9 @@
  */
 
 /* 共通のデフォルトスタイル */
- body{
-   padding: 0;
-   margin: 0;
- }
+body{
+ margin: 0;
+}
 
 /* ヘッダのスタイル */
 header{
@@ -28,7 +27,7 @@ header .hdr-title{
   vertical-align: middle;
   height: 100%;
   width: 50%;
-  padding-left: 10%;
+  padding: 0% 10%;
   font-size: 32px;
   color: black;
 }
@@ -38,7 +37,7 @@ header nav{
   display: table-cell;
   height: 100%;
   width: 50%;
-  margin-left: 0px;
+  white-space: nowrap;
 }
 
 header nav ul{
@@ -85,30 +84,30 @@ header nav li{
 .contents h1{
   font-size: 28px;
   font-style: bold;
-  padding-left: 2em;
+  padding: 0% 4%;
 }
 
 .contents h2{
   font-size: 24px;
   font-style: bold;
-  padding-left: 4em;
+  padding: 0% 8%;
 }
 
 .contents h3{
   font-size: 18px;
   font-style: bold;
-  padding-left: 7em;
+  padding: 0% 12%;
 }
 
 .contents p{
   font-size: 18px;
-  padding-left: 8em;
+  padding: 0% 16%;
 }
 
 .contents ul{
   list-style-type: square;
   font-size: 18px;
-  padding-left: 8em;
+  padding: 0% 16%;
 }
 
 /* センターに強調表示する場合のスタイル */
