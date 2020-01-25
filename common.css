@@ -108,6 +108,27 @@ header nav li{
   padding: 0% 16%;
 }
 
+.contents table{
+  margin: 0% 16%;
+}
+
+.contents th{
+  text-align: left;
+  vertical-align: top;
+  font-size: 18px;
+  font-style: bold;
+  width: 10%;
+  padding: 18px 0px;
+}
+
+.contents td{
+  text-align: left;
+  vertical-align: top;
+  font-size: 18px;
+  width: 25%;
+  padding: 18px 0px;
+}
+
 .contents ul{
   list-style-type: square;
   font-size: 18px;
