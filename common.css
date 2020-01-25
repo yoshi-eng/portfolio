@@ -4,7 +4,7 @@
 
 /* 共通のデフォルトスタイル */
 body{
- margin: 0;
+  margin: 0;
 }
 
 /* ヘッダのスタイル */
@@ -64,7 +64,7 @@ header nav li{
 /* アンカージャンプ時、ヘッダに隠れないための調整 */
 .anchor{
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 160px;
   margin-top: -70px;
 }
 
@@ -78,6 +78,10 @@ header nav li{
 
 .contents .anchor#contact{
   background-color: #dddddd;
+}
+
+.contents .anchor#about{
+  background-color: #eeeeee;
 }
 
 /* コンテンツ内タグのスタイル */
@@ -104,6 +108,27 @@ header nav li{
   padding: 0% 16%;
 }
 
+.contents table{
+  margin: 0% 16%;
+}
+
+.contents th{
+  text-align: left;
+  vertical-align: top;
+  font-size: 18px;
+  font-style: bold;
+  width: 10%;
+  padding: 18px 0px;
+}
+
+.contents td{
+  text-align: left;
+  vertical-align: top;
+  font-size: 18px;
+  width: 25%;
+  padding: 18px 0px;
+}
+
 .contents ul{
   list-style-type: square;
   font-size: 18px;
@@ -115,6 +140,12 @@ header nav li{
   text-align: center;
   font-size: 20px;
   padding: 20px 0px;
+}
+
+/* 注意点を示す場合のスタイル */
+.contents .notes{
+  font-size: 18px;
+  padding: 0% 12%;
 }
 
 /* 星を用いた5段階評価を表示する場合のスタイル */
