@@ -142,6 +142,12 @@ header nav li{
   padding: 20px 0px;
 }
 
+/* 注意点を示す場合のスタイル */
+.contents .notes{
+  font-size: 18px;
+  padding: 0% 12%;
+}
+
 /* 星を用いた5段階評価を表示する場合のスタイル */
 .contents .star-rating{
   display: flex;
