@@ -64,7 +64,7 @@ header nav li{
 /* アンカージャンプ時、ヘッダに隠れないための調整 */
 .anchor{
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 160px;
   margin-top: -70px;
 }
 
@@ -78,6 +78,10 @@ header nav li{
 
 .contents .anchor#contact{
   background-color: #dddddd;
+}
+
+.contents .anchor#about{
+  background-color: #eeeeee;
 }
 
 /* コンテンツ内タグのスタイル */
