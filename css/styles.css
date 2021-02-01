@@ -1,0 +1,282 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  color: #333; /* 柔らかめの黒 */
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+h1{
+  font-size: 36px;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+p{
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* styles of top */
+
+header{
+  background: #d9d9d9;
+  height: 5000px;
+}
+
+.nav {
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+}
+
+.nav > li{
+  position: relative;
+  flex: 1 0 auto;
+}
+
+.nav .nav-top{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+}
+
+.nav .nav-last{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+}
+
+.nav .nav-sections{
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.nav .nav-sections li{
+  width: 40px;
+  height: 20px;
+  padding: 5px 0;
+}
+
+header .title-container{
+  position: fixed;
+  width: 100%;
+}
+
+header .title-container .title{
+  font-size: 48px;
+  letter-spacing: 10px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header .title-container .title p{
+  position: relative;
+}
+
+header .title-container .subtitle{
+  font-size: 24px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header .title-container .subtitle p{
+  position: relative;
+}
+
+header .sentence-container{
+  position: fixed;
+  width: 100%;
+}
+
+header .sentence-container .sentence1{
+  font-size: 24px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header .sentence-container .sentence1 p{
+  position: relative;
+}
+
+header .sentence-container .sentence2{
+  font-size: 24px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header .sentence-container .sentence2 p{
+  position: relative;
+}
+
+/* styles in sections */
+
+section{
+  padding: 100px 0;
+  min-height: 100%;
+}
+
+/* styles in p1 */
+
+#p1 .container{
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(200px);
+  transition: all 1s;
+}
+
+#p1 .container.scrollin{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+#p1 .container .icon{
+  width: 150px;
+  height: 150px;
+}
+
+#p1 .container .description{
+  padding-left: 20px;
+}
+
+/* styles in p2 */
+
+.skills{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.skill-tabs{
+  height: 60px;
+  display: flex;
+}
+
+.skill-tab {
+  background-color: #d9d9d9;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #565656;
+  line-height: 60px;
+  width: 200px;
+  height: 60px;
+  border-bottom: 3px solid #225313;
+  transition: all 0.2s;
+}
+.skill-tab.active {
+  background-color: #a8a8a8;
+}
+
+.skill-content{
+  margin: 40px 0;
+  display: none;
+}
+.skill-content.show{
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-content h2{
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.skill-content ul{
+  list-style-type: circle;
+}
+
+.skill-content li{
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* styles in p3 */
+
+.careers{
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 600px;
+}
+
+.career{
+  background: rgb(137, 189, 144);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 20px 0;
+  opacity: 0;
+  transform: translateX(200px);
+  transition: all 1s;
+}
+
+.career.scrollin{
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.career .year{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+  border-right: 3px solid #2b631a;
+}
+
+.career .matter{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.career .image{
+  width: 100px;
+}
+
+footer{
+  background: #d9d9d9;
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+}
+
+.contact{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.copyright{
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: auto;
+}
